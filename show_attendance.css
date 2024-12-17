@@ -1,0 +1,102 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Button Styles */
+button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Response Message Styles */
+#responseMessage {
+    margin-top: 20px;
+    font-size: 16px;
+    color: red;
+}
+
+/* Table Styles */
+#attendanceTable {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    display: none;
+}
+
+#attendanceTable th,
+#attendanceTable td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#attendanceTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#attendanceTable td {
+    background-color: #fff;
+}
+
+/* Dot Styles for Attendance */
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.dot.present {
+    background-color: #4CAF50; /* Green for present */
+}
+
+.dot.absent {
+    background-color: #f44336; /* Red for absent */
+}
+
+/* Error Message */
+#error {
+    color: red;
+}

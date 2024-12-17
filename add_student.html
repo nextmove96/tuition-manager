@@ -1,0 +1,26 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="add_student.css">
+<form id="studentForm">
+    <div class="form-group">
+        <input type="text" id="name" name="name" placeholder="Full Name:" required>
+    </div>
+    <div class="form-group">
+        <input type="tel" id="contact" name="contact" placeholder="Student Contact Number:" required>
+    </div>
+    <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="Email Address:" required>
+    </div>
+    <div class="form-group">
+        <textarea id="address" name="address" placeholder="Address:" required></textarea>
+    </div>
+    <div class="form-group">
+        <input type="tel" id="parentContact" placeholder="Parent's Contact Number:" name="parentContact" required>
+    </div>
+    <div class="form-group">
+        <input type="text" id="batch" name="batch" placeholder="Batch:" required>
+    </div>
+    <button type="submit" id="submitBtn">Submit Information</button>
+</form>
+<div id="responseMessage"></div>
+<script src="add_student.js"></script>
